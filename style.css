@@ -1,0 +1,16 @@
+.navbar {
+    height:55px;
+    background-color: rgba(26,26,26,0.9) !important;
+    
+}
+.nav-item {
+    font-size: 14px ;
+    font-weight: 600;
+}
+
+a[href="in"]{
+    color:#cd8fd4 !important;
+}
+a[href="titlewhite"]{
+    color:#d6d6d6 !important;
+}
