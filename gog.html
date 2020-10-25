@@ -18,7 +18,7 @@
     <title>GOG.com</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -177,6 +177,8 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus fa-flip-horizontal mr-2"></i>Add to
+                cart</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -188,6 +190,8 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus fa-flip-horizontal mr-2"></i>Add to
+                cart</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -201,6 +205,8 @@
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
+              <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus fa-flip-horizontal mr-2"></i>Add to
+                cart</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -214,6 +220,8 @@
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
+              <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus fa-flip-horizontal mr-2"></i>Add to
+                cart</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -227,6 +235,8 @@
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
+              <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus fa-flip-horizontal mr-2"></i>Add to
+                cart</button>
             </div>
           </div>
         </div>
@@ -249,72 +259,120 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="card-deck">
-        <div class="card">
-          <img
-            src="assets/img/shopItems/tile (9).jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Baldur's Gate II</h5>
-            <p class="card-text"></p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+      <section id="quad-cards" class="mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-8 col-lg-3 my-2 my-lg-0 mx-auto">
+              <div class="card mr-1">
+                <div class="img-wrapper">
+                  <img
+                    src="assets/img/shopItems/tile (2).jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title font-weight-bold mb-4">
+                    Darkest Hour
+                  </h6>
+                  <p class="previous-price">€18.00</p>
+                  <h6 class="font-weight-bold text-right">
+                    <span class="sale-txt mr-3">-10%</span
+                    ><span class="sub-text-price">€20.00</span>
+                  </h6>
+                  <div class="icons">
+                    <i class="fab fa-windows mr-1"></i
+                    ><i class="fab fa-linux"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-8 col-lg-3 my-2 my-lg-0 mx-auto">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img
+                    src="assets/img/shopItems/tile (3).jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title font-weight-bold mb-4">Hunie Pop</h6>
+                  <p class="previous-price">€8.99</p>
+                  <h6 class="font-weight-bold text-right">
+                    <span class="sale-txt mr-3">-10%</span
+                    ><span class="sub-text-price">€9.99</span>
+                  </h6>
+                  <div class="icons">
+                    <i class="fab fa-windows mr-1"></i
+                    ><i class="fab fa-apple"></i><i class="fab fa-linux"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-8 col-lg-3 my-2 my-lg-0 mx-auto">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img
+                    src="assets/img/shopItems/tile (6).jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title font-weight-bold mb-4">
+                    Disco Elysium
+                  </h6>
+                  <h6 class="font-weight-bold text-right">Coming soon</h6>
+                  <div class="icons">
+                    <i class="fab fa-windows mr-1"></i
+                    ><i class="fab fa-apple"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-8 col-lg-3 my-2 my-lg-0 mx-auto">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img
+                    src="assets/img/shopItems/tile (9).jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title font-weight-bold mb-4">
+                    Baldurs Gate II
+                  </h6>
+                  <p class="previous-price">€11.49</p>
+                  <h6 class="font-weight-bold text-right">
+                    <span class="sale-txt mr-3">-15%</span
+                    ><span class="sub-text-price">€13.49</span>
+                  </h6>
+                  <div class="icons"><i class="fab fa-windows mr-1"></i></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img
-            src="assets/img/shopItems/tile (2).jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Roller Coaster Tycoon</h5>
-            <p class="card-text"></p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+      </section>
+    </div>
+    <hr />
+    <section id="drm-free" class="grey-brdr-b grey-brdr-t mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <a href="#">We are GOG.COM, the <span class="text-purple font-weight-900">DRM-free</span> home for a <span
+                class="text-purple font-weight-900">curated selection</span> of games. This place was <span
+                class="text-purple font-weight-900">made for gamers</span>, so make yourself at home.</a>
           </div>
-        </div>
-        <div class="card">
-          <img
-            src="assets/img/shopItems/tile (3).jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Hunie Pop</h5>
-            <p class="card-text"></p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="assets/img/shopItems/tile (6).jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Disco Elysium</h5>
-            <p class="card-text"></p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+          <div class="col-3 d-flex justify-content-end align-items-center grey-brdr-l">
+            <a href="#" class="text-purple font-weight-900"><img width="30px" height="30px" class="mr-1"
+                src="assets/img/shopItems/gog-galaxy.png" /> new GOG GALAXY 2.0</a>
           </div>
         </div>
       </div>
-    </div>
-    <hr />
-    <div class="container">
-      <p>
-        We are GOG.COM, the DRM-Free home for a curated selection of games. This
-        place was made for gamers, so make yourself at home.
-      </p>
-    </div>
+    </section>
     <hr />
 
     <section id="promo-banner" class="d-none d-md-block mb-4">
@@ -364,6 +422,91 @@
       </nav>
       <hr />
     </div>
+    <section id="whats-good" class="my-5">
+      <div class="container">
+        <div class="grey-brdr-b mb-3"><i class="fas fa-star"></i></i>
+          <h5 class="font-weight-bold d-inline-block ml-2">What's good?</h5>
+        </div>
+        <div class="row">
+          <div class="col-6 pr-0">
+            <div class="card mr-1">
+              <div class="img-wrapper">
+                <img src="assets/img/shopItems/tile (15).jpg" height="332px" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h6 class="card-title font-weight-bold mb-4">Darkest Hour</h6>
+                <p class="previous-price">€19.49</p>
+                <h6 class="font-weight-bold text-right"><span class="sale-txt mr-3">-10%</span><span
+                    class="sub-text-price">€17.59</span></h6>
+                <div class="icons"><i class="fab fa-windows mr-1"></i><i class="fab fa-linux"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row mb-2">
+              <div class="col-6" style="padding-right:4px;">
+                <div class="card mr-1">
+                  <div class="img-wrapper">
+                    <img src="assets/img/shopItems/tile (15).jpg" height="118px" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold mb-4">Darkest Hour</h6>
+                    <p class="previous-price">€19.49</p>
+                    <h6 class="font-weight-bold text-right"><span class="sale-txt mr-3">-10%</span><span
+                        class="sub-text-price">€17.59</span></h6>
+                    <div class="icons"><i class="fab fa-windows mr-1"></i><i class="fab fa-linux"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" style="padding-left:4px;">
+                <div class="card mr-1">
+                  <div class="img-wrapper">
+                    <img src="assets/img/shopItems/tile (15).jpg" height="118px" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold mb-4">Darkest Hour</h6>
+                    <p class="previous-price">€19.49</p>
+                    <h6 class="font-weight-bold text-right"><span class="sale-txt mr-3">-10%</span><span
+                        class="sub-text-price">€17.59</span></h6>
+                    <div class="icons"><i class="fab fa-windows mr-1"></i><i class="fab fa-linux"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6" style="padding-right:4px;">
+                <div class="card mr-1">
+                  <div class="img-wrapper">
+                    <img src="assets/img/shopItems/tile (15).jpg" height="118px" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold mb-4">Darkest Hour</h6>
+                    <p class="previous-price">€19.49</p>
+                    <h6 class="font-weight-bold text-right"><span class="sale-txt mr-3">-10%</span>
+                      <span class="sub-text-price">€17.59</span></h6>
+                    <div class="icons"><i class="fab fa-windows mr-1"></i><i class="fab fa-linux"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" style="padding-left:4px;">
+                <div class="card mr-1">
+                  <div class="img-wrapper">
+                    <img src="assets/img/shopItems/tile (15).jpg" height="118px" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold mb-4">Darkest Hour</h6>
+                    <p class="previous-price">€19.49</p>
+                    <h6 class="font-weight-bold text-right"><span class="sale-txt mr-3">-10%</span><span
+                        class="sub-text-price">€17.59</span></h6>
+                    <div class="icons"><i class="fab fa-windows mr-1"></i><i class="fab fa-linux"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

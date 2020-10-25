@@ -27,8 +27,24 @@ a[href="titlewhite"]{
    font-weight: 600;
 }
 
-.card-deck {
-    margin-top: 3em;
+.btn-add-to-cart {
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  position: absolute;
+  right: -9rem;
+  bottom: 0;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  background-color: #bde94f;
+  background-image: linear-gradient(180deg, #bde94f 0%, #82b12b 100%);
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-add-to-cart:hover {
+  background-color: #caf957;
+  background-image: linear-gradient(180deg, #caf957 0%, #8bbd2f 100%);
+  color: #fff;
 }
 
 #offers{
@@ -36,7 +52,62 @@ a[href="titlewhite"]{
     margin-bottom: -1em;
 }
 
+#quad-cards{
+  margin-top: 1em;
+}
+.card {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0px !important;
+  border: none !important;
+  background-color: rgba(250, 250, 250, 0.6);
+}
 
+.card-body {
+  padding: 0.5rem 1.2rem;
+}
+
+.card .sale-txt {
+  background-color: #78387b;
+  padding: 4px 8px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.card .sub-text-price {
+  font-size: 18px;
+}
+
+.card .previous-price {
+  text-decoration: line-through;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 13px;
+  color: rgb(179, 179, 179) !important;
+}
+
+.card .icons {
+  color: rgb(184, 184, 184);
+  position: absolute;
+  bottom: 6px;
+  left: 12px;
+}
+
+.card .icons i {
+  height: 16px;
+  width: 16px;
+}
+
+#drm-free {
+  width: 100%;
+  
+}
+
+#drm-free a {
+  color: rgb(64, 64, 64);
+  text-decoration: none;
+}
 
 #promo-banner .promo-banner-wrapper {
     position: relative;
